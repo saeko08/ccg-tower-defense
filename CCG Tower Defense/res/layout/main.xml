@@ -2,45 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="CCG Tower Defense"
-    android:gravity="center"
-    />
-<Button  
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CCG Tower Defense"
+        android:gravity="center"
+        />
+    <Button  
         android:id="@+id/FindButton"  
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
         android:text="Find Game"  
         android:minHeight="92dp"  
         android:textSize="22dp"  
-        android:onClick="onFindButtonClick"></Button> 
-        <Button  
+        android:onClick="onFindButtonClick">
+    </Button> 
+    <Button  
         android:id="@+id/CreateButton"  
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
         android:text="Create Game"  
         android:minHeight="92dp"  
         android:textSize="22dp"  
-        android:onClick="onCreateButtonClick"></Button> 
-        <Button  
+        android:onClick="onCreateButtonClick">
+    </Button> 
+    <Button  
         android:id="@+id/DeckButton"  
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
         android:text="View Decks"  
         android:minHeight="92dp"  
         android:textSize="22dp"  
-        android:onClick="onDeckButtonClick"></Button> 
-        <Button  
+        android:onClick="onDeckButtonClick">
+    </Button> 
+    <Button  
         android:id="@+id/CardsButton"  
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
         android:text="View Cards"  
         android:minHeight="92dp"  
         android:textSize="22dp"  
-        android:onClick="onCardsButtonClick"></Button> 
+        android:onClick="onCardsButtonClick">
+    </Button> 
 </LinearLayout>
 
